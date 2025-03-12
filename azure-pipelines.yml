@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default
+  vmImage: 'windows-latest'  # or 'ubuntu-latest' if using Linux
 
 steps:
 - script: echo Hello, world!
